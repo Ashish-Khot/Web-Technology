@@ -1,0 +1,20 @@
+/* Type selector */
+body {
+  background-color: #fff8e1;
+}
+
+/* Class selector */
+.important {
+  color: purple;
+  font-weight: bold;
+}
+
+/* Attribute selector */
+a[href^="mailto"] {
+  color: orange;
+}
+
+/* Pseudo-class selector */
+a:visited {
+  color: gray;
+}

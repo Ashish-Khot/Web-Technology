@@ -1,0 +1,37 @@
+/* Type selector */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* ID selector */
+#home-link {
+  color: green;
+}
+
+/* Class selector */
+.nav-link {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Group selector */
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Attribute selector */
+a[href*="example"] {
+  color: red;
+}
+
+/* Pseudo-class selector */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Pseudo-element selector */
+p::first-letter {
+  font-size: 150%;
+  color: #FF5733;
+}

@@ -1,0 +1,8 @@
+/* For older IE browsers */
+body {
+  background-color: #cccccc;
+}
+
+h1 {
+  color: darkred;
+}
